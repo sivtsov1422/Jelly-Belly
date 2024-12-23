@@ -7,12 +7,12 @@ const SiteMap = () => {
       <div className={styled.links}>
         <a href="">About Jelly Belly Wiki</a>
         <Link to="/Jelly-Belly" className={styled.link}>Beans</Link>
-        <Link to="/facts" className={styled.link}>Facts</Link>
-        <Link to="/recipties" className={styled.link}>Recipties</Link>
-        <Link to="/combinations" className={styled.link}>Combinations</Link>
-        <Link to="/history" className={styled.link}>History</Link>
-        <Link to="/about" className={styled.link}>About</Link>
-        <Link to="/review" className={styled.link}>Review</Link>
+        <Link to="/Jelly-Belly/facts" className={styled.link}>Facts</Link>
+        <Link to="/Jelly-Belly/recipties" className={styled.link}>Recipties</Link>
+        <Link to="/Jelly-Belly/combinations" className={styled.link}>Combinations</Link>
+        <Link to="/Jelly-Belly/history" className={styled.link}>History</Link>
+        <Link to="/Jelly-Belly/about" className={styled.link}>About</Link>
+        <Link to="/Jelly-Belly/review" className={styled.link}>Review</Link>
       </div>
     </div>
   );

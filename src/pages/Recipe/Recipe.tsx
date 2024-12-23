@@ -62,7 +62,7 @@ const RecipePage = () => {
             <h3>Directions</h3>
             <p>{recipeData.directions}</p>
             <p>{recipeData.tips}</p>
-            <Link to="/recipties">Back to recipes →</Link>
+            <Link to="/Jelly-Belly/recipties">Back to recipes →</Link>
           </div>
         )}
       </div>

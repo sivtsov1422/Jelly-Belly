@@ -43,7 +43,7 @@ const BeanPage = () => {
                 <p>Sugar Free: {beanData.sugarFree}</p>
                 <p>Color Group: {beanData.colorGroup}</p>
               </div>
-              <Link to="/Jelly-Belly" className={styled.link}>Back to Beans →</Link>
+              <Link to="/Jelly-Belly/beans" className={styled.link}>Back to Beans →</Link>
             </div>
 
           </>

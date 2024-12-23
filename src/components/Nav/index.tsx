@@ -6,12 +6,12 @@ const Nav = () => {
   return (
     <nav className={style.nav}>
         <Link to="/Jelly-Belly">Beans</Link>
-        <Link to="/facts">Facts</Link>
-        <Link to="/recipties">Recipties</Link>
-        <Link to="/combinations">Combinations</Link>
-        <Link to="/history">History</Link>
-        <Link to="/about">About</Link>
-        <Link to="/review">Review</Link>
+        <Link to="/Jelly-Belly/facts">Facts</Link>
+        <Link to="/Jelly-Belly/recipties">Recipties</Link>
+        <Link to="/Jelly-Belly/combinations">Combinations</Link>
+        <Link to="/Jelly-Belly/history">History</Link>
+        <Link to="/Jelly-Belly/about">About</Link>
+        <Link to="/Jelly-Belly/review">Review</Link>
         <SwitchTheme />
     </nav>
   );
