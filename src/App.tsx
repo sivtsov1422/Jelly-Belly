@@ -1,10 +1,5 @@
 import "./App.css";
-import Cards from "./components/Cards/index.tsx";
-import Header from "./components/header/index.tsx";
-import { createContext, Dispatch, useState } from "react";
-import Search from "./components/Search/index.tsx";
-import useOnlineStatus from "./components/hooks/useOnlineStatus.ts";
-import useDeviceType, { DeviceType } from "./components/hooks/useDeviceType.ts";
+import { createContext, Dispatch, } from "react";
 import { RouterProvider } from "react-router-dom";
 import router from "./router.tsx";
 

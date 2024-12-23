@@ -15,7 +15,7 @@ import About from "./pages/About/About.tsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "Jelly-Belly",
     element: <Layout />,
     loader: Loader,
     children: [
