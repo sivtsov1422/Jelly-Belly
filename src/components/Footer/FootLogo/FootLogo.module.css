@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.p {
+    max-width: 400px;
+    color: rgb(255, 70, 70);
+}

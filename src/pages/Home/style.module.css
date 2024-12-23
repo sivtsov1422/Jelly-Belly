@@ -1,0 +1,16 @@
+.img {
+    width: 50%;
+}
+
+.home_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px auto;
+}
+
+.info {
+    text-align: center;
+    max-width: 300px;
+    color: rgb(240, 77, 77);
+}

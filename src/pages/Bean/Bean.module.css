@@ -1,0 +1,28 @@
+.container {
+    max-width: 1000px;
+    margin: 100px auto;
+    background: white;
+    border-radius: 50px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: rgb(255, 70, 70);
+    font-size: 18px;
+
+}
+
+.link {
+    font-weight: 600;
+}
+
+.setContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.img {
+    width: 70%;
+}

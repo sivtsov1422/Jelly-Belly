@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0px;
+    background: #fac4c4;
+}
+
+@media (max-width: 840px) {
+    .header {
+        font-size: 5px;
+    }
+}

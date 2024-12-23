@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    background: #fac4c4;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.container:hover {
+    background: white;
+    border: 1px solid rgb(235, 10, 10);
+}
+
+@media (max-width: 1180px) {
+    .container {
+        max-width: 300px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 840px) {
+    .container {
+        max-width: 400px;
+        font-size: 15px;
+        height: 250px;
+    }
+}

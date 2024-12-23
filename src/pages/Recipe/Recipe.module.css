@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 70px;
+  padding: 5rem;
+  color: rgb(255, 70, 70);
+  font-size: 18px;
+  gap: 30px;
+}
+
+.start {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  max-width: 280px;
+}
+
+.img {
+  width: 70%;
+  border-radius: 50px;
+}

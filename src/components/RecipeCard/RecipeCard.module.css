@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    max-width: 600px;
+    gap: 5px;
+    background: white;
+    border-radius: 20px;
+}
+
+.container:hover {
+    border: 1px solid rgb(255, 120, 120);
+  }
+
+.h3 {
+    color: rgb(255, 70, 70);
+}
+.p {
+    color: rgb(179, 48, 48);
+}
+
+.link {
+    color: rgb(255, 70, 70);
+    text-decoration: underline;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 700px) {
+    .container {
+        font-size: 9px;
+    }
+
+}

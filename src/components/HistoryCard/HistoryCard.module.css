@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    background: white;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 400px;
+    padding: 1rem;
+    color: rgb(255, 70, 70);
+
+}
+
+.container:hover {
+    border: 1px solid red;
+}
+
+@media (max-width:750px) {
+    .container {
+        font-size: 13px;
+    }
+}

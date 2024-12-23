@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  align-items: baseline;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  background: #fac4c4;
+  height: 400px;
+}
+
+@media (max-width: 840px) {
+  .container {
+    font-size: 10px;
+  }
+}
