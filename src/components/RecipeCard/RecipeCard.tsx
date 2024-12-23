@@ -15,7 +15,7 @@ const RecipeCard: FC<Props> = ({data}) => {
       <p className={styled.p}>{data.description}</p>
       <p className={styled.p}>{data.makingAmount}</p>
       <p className={styled.p}>{data.totalTime}</p>
-      <Link to = {`/recipe/${data.recipeId}`} className={styled.link}>check out this recipe</Link>
+      <Link to = {`/Jelly-Belly/recipties/recipe/${data.recipeId}`} className={styled.link}>check out this recipe</Link>
     </div>
   );
 };
