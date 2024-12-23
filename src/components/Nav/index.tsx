@@ -5,7 +5,7 @@ import style from "./style.module.css"
 const Nav = () => {
   return (
     <nav className={style.nav}>
-        <Link to="/Jelly-Belly">Beans</Link>
+        <Link to="/Jelly-Belly/beans">Beans</Link>
         <Link to="/Jelly-Belly/facts">Facts</Link>
         <Link to="/Jelly-Belly/recipties">Recipties</Link>
         <Link to="/Jelly-Belly/combinations">Combinations</Link>

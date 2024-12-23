@@ -6,7 +6,7 @@ const SiteMap = () => {
       <h3 className={styled.h3}>Site Map</h3>
       <div className={styled.links}>
         <a href="">About Jelly Belly Wiki</a>
-        <Link to="/Jelly-Belly" className={styled.link}>Beans</Link>
+        <Link to="/Jelly-Belly/beans" className={styled.link}>Beans</Link>
         <Link to="/Jelly-Belly/facts" className={styled.link}>Facts</Link>
         <Link to="/Jelly-Belly/recipties" className={styled.link}>Recipties</Link>
         <Link to="/Jelly-Belly/combinations" className={styled.link}>Combinations</Link>

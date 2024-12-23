@@ -15,7 +15,7 @@ interface Props {
 const Card: FC<Props> = ({data}) => {
   return (
 
-    <Link to = {`/bean/${data.beanId}`} className={style.card}>
+    <Link to = {`/Jelly-Belly/bean/${data.beanId}`} className={style.card}>
         <h2>{data.flavorName}</h2>
         <img src= {data.imageUrl} alt="" className={style.img}/>
         <p>{data.description}</p>
